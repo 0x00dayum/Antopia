@@ -48,8 +48,6 @@ p {
 body {
   margin: 0;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   background: linear-gradient(45deg, #8cb709 0%, #FD8112 50%, #0085ca 100%);
 }
 
