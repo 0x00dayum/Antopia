@@ -26,43 +26,10 @@ section{
   place-items: center;
   align-content: center;
   padding: 10px;
+  width: 100%
   margin: 0;
   width: fit-content;
  
-}
-/* Media Queries */
-@media (min-width: 640px) {
-.projects {
-grid-template-columns: repeat(2, 1fr);
-gap: 40px;
-}
-}
-
-@media (min-width: 768px) {
-.projects {
-grid-template-columns: repeat(3, 1fr);
-gap: 50px;
-}
-
-h1 {
-font-size: 40px;
-}
-
-p {
-font-size: 18px;
-}
-}
-@media (min-width: 1024px) {
-.projects {
-grid-template-columns: repeat(4, 1fr);
-gap: 60px;
-}
-}
-
-@media (min-width: 640px) and (orientation: landscape) {
-body {
-grid-template-columns: 160px 1fr;
-grid-template-rows: none;
 }
 
 .header {
